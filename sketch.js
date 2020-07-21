@@ -69,3 +69,9 @@ function draw() {
   t += 0.1;
   tpos += 0.03;
 }
+
+function keyPressed(key) {
+  console.log(key)
+  if(key.keyCode === 80)
+    save()
+}
